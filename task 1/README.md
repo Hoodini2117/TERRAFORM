@@ -2,18 +2,15 @@
 
 This file helps you create an EC2 instance on AWS using Terraform. This file contains variableized values for now, but you can also hardcode the values instead of variabilizing them as well.
 
----
 
 ##  Configurations
 
 - EC2 instance type: `t3.micro`
 - OS: Ubuntu (via AMI ID)
-- Subnet: User-specified Subnet ID
+- Subnet: <subnet id>
 - Public IP: Disabled
 - Root EBS volume: Increased to 12 GB
 
-
----
 
 ## Step 1: Installation
 
