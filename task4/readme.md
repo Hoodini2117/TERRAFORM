@@ -4,6 +4,7 @@
 This project automates the deployment of a secure, scalable, and highly available multi-tier application infrastructure on Amazon Web Services (AWS) using Terraform. The architecture is modular, allowing for easy maintenance, extension, and reuse of components.
 
 ## Project Objective
+
 The goal is to provision a standard web application stack on AWS consisting of the following components:
 
 A Virtual Private Cloud (VPC) for network isolation
@@ -24,7 +25,7 @@ This infrastructure ensures high availability, security, and scalability.
 
 ## Project Structure
 The project directory is structured into a root module and multiple feature-specific submodules.
-
+```bash
 terraform-project/
 ├── main.tf              # Root module configuration
 ├── variables.tf         # Input variable declarations
@@ -39,7 +40,7 @@ terraform-project/
     ├── alb/             # Application Load Balancers
     └── rds/             # Relational Database Service
 Each module includes its own main.tf, variables.tf, and outputs.tf files.
-
+```
 
 ## Module Descriptions
 ### VPC Module
