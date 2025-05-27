@@ -24,7 +24,7 @@ This infrastructure ensures high availability, security, and scalability.
 
 ## Project Structure
 The project directory is structured into a root module and multiple feature-specific submodules.
-***
+~
 terraform-project/
 ├── main.tf              # Root module configuration
 ├── variables.tf         # Input variable declarations
@@ -39,7 +39,7 @@ terraform-project/
     ├── alb/             # Application Load Balancers
     └── rds/             # Relational Database Service
 Each module includes its own main.tf, variables.tf, and outputs.tf files.
-***
+~
 
 ## Module Descriptions
 ### VPC Module
